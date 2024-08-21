@@ -225,15 +225,16 @@
 
     <main>
       <!-- hero -->
-      <section>
+      <section class="lg:w-10/12 lg:mx-auto">
         <div class="hero bg-base-200 min-h-screen">
-          <div class="hero-content flex-col lg:flex-row-reverse text-center">
+          <div
+            class="hero-content flex-col lg:flex-row-reverse text-center lg:text-start my-5"
+          >
             <!-- img -->
             <img
               src="./assets/Rectangle.png"
-              class="max-w-full rounded-lg shadow-2xl hidden sm:hidden"
+              class="max-w-full rounded-lg shadow-2xl hidden lg:block"
             />
-
             <!-- img e -->
 
             <!-- imgs left side part -->
@@ -243,7 +244,7 @@
                 <img
                   src="./assets/Vector.png"
                   alt="vector"
-                  class="w-2/12 mb-5 hidden sm:hidden md:hidden"
+                  class="w-2/12 mb-5 hidden sm:hidden md:hidden lg:block"
                 />
               </div>
               <!-- vector png ends -->
@@ -251,7 +252,7 @@
               <!-- about us button -->
               <div>
                 <button
-                  class="bg-white text-2xl p-5 rounded-full font-bold lg:mb-5 mb-5"
+                  class="bg-white text-2xl p-5 rounded-full font-bold lg:m-0"
                 >
                   <i class="fa-solid fa-arrow-right"></i> About Us
                 </button>
@@ -328,7 +329,7 @@
             <!-- img -->
             <img
               src="./assets/Rectangle.png"
-              class="max-w-full rounded-lg shadow-2xl"
+              class="max-w-full rounded-lg shadow-2xl block sm:hidden"
             />
 
             <!-- img e -->
@@ -341,46 +342,44 @@
 
       <!-- review icon section -->
 
-      <section>
-        <div class="stats stats-vertical shadow w-11/12 mx-5 mt-10 ">
-          <div class="stat p-20  text-center">
-           
-            <!-- message section  -->
-            <div class="mb-20">
-              <i class="fa-solid fa-message text-5xl mb-5"></i>
-              <h1 class="text-5xl font-extrabold mb-5">235+</h1>
-              <p class="text-2xl"> Happy Client Review</p>
-            </div>
-            <!-- message section  -->
-
-
-            <!-- work section  -->
-            <div class="mb-20">
-              <i class="fa-solid fa-briefcase text-5xl mb-5"></i>
-             
-              <h1 class="text-5xl font-extrabold mb-5">50+</h1>
-              <p class="text-2xl"> Happy Client Review</p>
-            </div>
-            <!-- work section  -->
-
-            <!-- happyclinet section  -->
-            <div class="mb-20">
-              <i class="fa-solid fa-users text-5xl mb-5"></i>
-            
-              <h1 class="text-5xl font-extrabold mb-5">30k+</h1>
-              <p class="text-2xl"> Our Happy Client</p>
-            </div>
-            <!-- happyclinet section  -->
-
-
-            <!-- selft work section  -->
-            <div class="">
-              <i class="fa-solid fa-person-circle-check text-5xl mb-5"></i>
-              <h1 class="text-5xl font-extrabold mb-5">307+</h1>
-              <p class="text-2xl">Self Members</p>
-            </div>
-            <!-- selft work section  -->
+      <section class="">
+        <div
+          class="p-20 text-center lg:flex lg:p-0 justify-between items-center ml-20 lg:w-10/12 bg-white lg:ml-32 rounded-3xl"
+        >
+          <!-- message section  -->
+          <div class="mb-20 lg:m-0 lg:p-12">
+            <i class="fa-solid fa-message text-5xl mb-5"></i>
+            <h1 class="text-5xl font-extrabold mb-5">235+</h1>
+            <p class="text-2xl">Happy Client Review</p>
           </div>
+          <!-- message section  -->
+
+          <!-- work section  -->
+          <div class="mb-20 lg:m-0 lg:p-12">
+            <i class="fa-solid fa-briefcase text-5xl mb-5"></i>
+
+            <h1 class="text-5xl font-extrabold mb-5">50+</h1>
+            <p class="text-2xl">Happy Client Review</p>
+          </div>
+          <!-- work section  -->
+
+          <!-- happyclinet section  -->
+          <div class="mb-20 lg:m-0 lg:p-12">
+            <i class="fa-solid fa-users text-5xl mb-5"></i>
+
+            <h1 class="text-5xl font-extrabold mb-5">30k+</h1>
+            <p class="text-2xl">Our Happy Client</p>
+          </div>
+          <!-- happyclinet section  -->
+
+          <!-- selft work section  -->
+          <div class="mb-20 lg:m-0 lg:p-12">
+            <i class="fa-solid fa-person-circle-check text-5xl mb-5"></i>
+            <h1 class="text-5xl font-extrabold mb-5">307+</h1>
+            <p class="text-2xl">Self Members</p>
+          </div>
+          <!-- selft work section  -->
+        </div>
       </section>
 
       <!-- review icon section ends -->
