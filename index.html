@@ -57,10 +57,10 @@
     />
     <!-- fonts -->
   </head>
-  <body>
-    <header class="bg-gray-50">
+  <body class="bg-base-200">
+    <header class="bg-white">
       <!-- nav section -->
-      <nav class="lg:w-11/12 lg:mx-auto">
+      <nav class="lg:w-10/12 lg:mx-auto">
         <div class="navbar">
           <!-- arrow and text in this -->
           <div class="navbar-start">
@@ -68,7 +68,7 @@
               class="fa-solid fa-arrow-right bg-arrow p-2 rounded-full -rotate-45"
             ></i>
             <a
-              class="btn bg-white border-none shadow-none text-2xl text-black font-extrabold p-1"
+              class="btn bg-white border-none shadow-none text-4xl text-black font-extrabold"
               >Rinterio</a
             >
           </div>
@@ -76,7 +76,7 @@
 
           <!-- desktop nav menus  -->
           <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal px-1">
+            <ul class="menu menu-horizontal text-2xl font-bold mt-3">
               <li>
                 <a
                   class="text-blackbg-transparent hover:bg-transparent hover:text-green-400 transition-colors duration-300"
@@ -111,7 +111,7 @@
           </div>
           <!-- desktop nav menus ends -->
 
-          <div class="navbar-end lg:flex gap-5 text-2xl items-center">
+          <div class="navbar-end lg:flex gap-5 text-2xl items-center mt-5">
             <i
               class="fa-solid fa-magnifying-glass hidden sm:block bg-gray-200 p-2 rounded-full text-white"
             ></i>
@@ -183,20 +183,24 @@
           </div>
         </div>
       </nav>
-      <!-- nav section -->
+      <!-- nav section ends -->
 
       <!-- banner -->
       <section class="lg:w-11/12 lg:mx-auto">
         <div class="hero min-h-screen">
           <div class="hero-content text-center">
-            <div class="max-w-md">
+            <div>
               <!-- banner img -->
               <div>
-                <img src="./assets/banner.png" alt="" />
+                <img
+                  src="./assets/banner.png"
+                  alt=""
+                  class="opacity-65 w-1/2 mx-auto"
+                />
               </div>
-              <!-- banner img -->
-              <h1 class="text-3xl font-bold">
-                A barn house of this design has a striking appearance
+              <!-- banner img ends-->
+              <h1 class="text-5xl font-bold">
+                A barn house of this design has a <br />striking appearance
               </h1>
               <p class="py-6 text-1xl font-bold text-gray-500">
                 The barn house captivates with its blend of rustic charm and
@@ -218,5 +222,111 @@
       </section>
       <!-- banner -->
     </header>
+
+    <main>
+      <!-- hero -->
+
+      <section>
+        <div class="hero bg-base-200 min-h-screen">
+          <div class="hero-content flex-col lg:flex-row-reverse">
+            <!-- img -->
+            <img
+              src="./assets/Rectangle.png"
+              class="max-w-full rounded-lg shadow-2xl"
+            />
+
+            <!-- img -->
+
+            <!-- imgs left side part -->
+            <div>
+              <!-- vector png -->
+              <div>
+                <img
+                  src="./assets/Vector.png"
+                  alt="vector"
+                  class="w-2/12 mb-5"
+                />
+              </div>
+              <!-- vector png ends -->
+
+              <!-- about us button -->
+              <div>
+                <button
+                  class="bg-white text-2xl p-5 rounded-full font-bold mb-5"
+                >
+                  <i class="fa-solid fa-arrow-right"></i> About Us
+                </button>
+              </div>
+              <!-- about us button ends -->
+
+              <!-- texts -->
+              <div>
+                <h1 class="text-5xl font-extrabold">
+                  We design thoughtful, liveable spaces
+                </h1>
+                <p class="py-6">
+                  The barn house captivates with its blend of rustic charm and
+                  modern sophistication, featuring weathered wood, sleek metal
+                  accents.
+                </p>
+              </div>
+
+              <!-- texts ends -->
+
+              <!-- cross section  icon and texs-->
+
+              <!-- first div -->
+
+              <div class="flex bg-white p-5 gap-5 rounded-xl mb-2">
+                <!-- icon/img -->
+                <div>
+                  <img src="./assets/residential.png" alt="" />
+                </div>
+                <!-- icon/img -->
+
+                <!-- for 2 text  -->
+                <div>
+                  <h1 class="font-bold">Residential</h1>
+                  <p>
+                    The barn house captivates with its blend of rustic charm and
+                    modern.
+                  </p>
+                </div>
+                <!-- for 2 text  -->
+              </div>
+
+              <!-- first div ends-->
+
+              <!-- 2dn div  -->
+
+              <div class="flex bg-white p-5 gap-5 rounded-xl">
+                <!-- icon/img -->
+                <div>
+                  <img src="./assets/commercial.png" alt="" />
+                </div>
+                <!-- icon/img -->
+
+                <!-- for 2 text  -->
+                <div>
+                  <h1 class="font-bold">Commercial</h1>
+                  <p>
+                    The barn house captivates with its blend of rustic charm and
+                    modern.
+                  </p>
+                </div>
+                <!-- for 2 text  -->
+              </div>
+
+              <!-- 2dn div ends -->
+
+              <!-- cross section  icon and texs ends-->
+            </div>
+
+            <!-- imgs left side part ends -->
+          </div>
+        </div>
+      </section>
+      <!-- hero -->
+    </main>
   </body>
 </html>
