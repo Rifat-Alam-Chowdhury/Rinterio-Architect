@@ -725,7 +725,7 @@
       <!-- grid3 -->
 
       <!-- lets discuss our next projects -->
-      <section class="bg-form-img">
+      <section class="bg-form-img bg-no-repeat bg-cover">
         <div class="text-center">
           <div class="p-10">
             <button
@@ -747,7 +747,7 @@
         </div>
 
         <div
-          class="lg:w-8/12 lg:mx-auto lg:grid lg:grid-cols-2 lg:grid-rows-2 lg:gap-3 rounded-full"
+          class="lg:w-8/12 lg:mx-auto lg:grid lg:grid-cols-2 lg:grid-rows-2 lg:gap-3"
         >
           <div class="lg:m-0 ml-5 mb-2">
             <input
@@ -787,17 +787,68 @@
               placeholder="Write your message here"
             ></textarea>
           </div>
+
+          <button
+            class="bg-[#ABEF5F] lg:p-3 rounded-3xl w-9/12 lg:mx-auto ml-10 font-extrabold lg:text-2xl p-3 col-start-1 col-end-3 mb-5"
+          >
+            Send E-Mail
+            <i
+              class="fa-solid fa-arrow-right bg-arrow p-2 rounded-full -rotate-45 bg-black text-white"
+            ></i>
+          </button>
         </div>
-        <button
-          class="bg-[#ABEF5F] lg:w-8/12 lg:mx-64 lg:p-3 rounded-3xl w-9/12 ml-10"
-        >
-          Send E-Mail
-          <i
-            class="fa-solid fa-arrow-right bg-arrow p-2 rounded-full -rotate-45"
-          ></i>
-        </button>
       </section>
       <!-- lets discuss our next projects -->
     </main>
+
+    <footer class="bg-black">
+      <footer class="footer footer-center text-primary-content p-10">
+        <aside>
+          <p class="font-bold text-3xl text-white">
+            <i
+              class="fa-solid fa-arrow-right bg-arrow p-1 rounded-full -rotate-45 text-black"
+            ></i>
+            Rinterio
+          </p>
+          <p class="text-gray-400">
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents.
+          </p>
+        </aside>
+
+        <nav>
+          <div
+            class="flex flex-col gap-10 font-semibold p-5 text-gray-400 lg:flex-row lg:gap-56"
+          >
+            <a>
+              <h1>Home</h1>
+            </a>
+
+            <a>
+              <h1>Portfolio</h1>
+            </a>
+
+            <a>
+              <h1>Services</h1>
+            </a>
+
+            <a>
+              <h1>Blogs</h1>
+            </a>
+            <a>
+              <h1>Contact Us</h1>
+            </a>
+          </div>
+        </nav>
+
+        <button
+          class="flex bg-[#ABEF5F] text-black text-2xl w-full p-3 justify-center rounded-3xl font-bold lg:w-1/5"
+        >
+          Book Consult<i
+            class="fa-solid fa-arrow-right bg-arrow p-2 rounded-full -rotate-45 bg-black text-white"
+          ></i>
+        </button>
+      </footer>
+    </footer>
   </body>
 </html>
